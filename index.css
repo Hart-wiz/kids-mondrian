@@ -1,0 +1,63 @@
+.outframe {
+  background-color: rgb(43, 6, 6);
+  margin-left: 3rem;
+  width: 400px;
+  height: 450px;
+  padding: 12.5px;
+}
+.frame {
+  background-color: white;
+  padding: 3%;
+  width: 400px;
+  height: 450px;
+}
+.container {
+  background-color: black;
+  display: grid;
+  gap: 0.8rem;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1fr 1fr 1.3fr;
+  width: 400px;
+  height: 450px;
+}
+
+/*..................Left Top container and content..*/
+.LeftTop {
+  background-color: white;
+  grid-row: span 2;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  padding-left: 30%;
+  padding-top: 30%;
+}
+
+/*...................Right Top container and contents............*/
+.RightTop {
+  background-color: white;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: row;
+}
+#red {
+  background-color: rgb(185, 18, 18);
+  width: 33%;
+  height: 60%;
+}
+
+/*.....................Right down container and content............*/
+.RightDown {
+  background-color: white;
+  grid-row: span 2;
+}
+#purple {
+  background-color: rgb(64, 25, 172);
+  width: 40%;
+  height: 35%;
+  margin-left: 50%;
+  margin-top: 65%;
+}
+
+/*........................Left Down container and content.................*/
+.LeftDown {
+  background-color: white;
+}
